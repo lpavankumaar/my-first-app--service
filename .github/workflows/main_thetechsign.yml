@@ -53,4 +53,4 @@ jobs:
         app-name: 'thetechsign'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_36155b13a46445d89e0bd75ae613ba95 }}
-        package: ./dist/hello-world-app
+        package: .
